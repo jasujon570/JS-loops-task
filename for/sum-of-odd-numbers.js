@@ -43,3 +43,21 @@ for(i = 91; i <= 129; i++) {
 
 console.log('All odd number:', oddNumbersArray.join(' + '));
 console.log('Sum of all odd numbers:', oddNumberSum);
+
+
+
+
+let n = 51;
+let m = 85;
+let sumation = 0;
+let evenArrayIs = [];
+
+
+for(''; n <= m; n++){
+    if(n % 2 ===0){
+        sumation += n;
+        evenArrayIs.push(n);
+    }
+}
+console.log('ALl even numbers are:', evenArrayIs);
+console.log('Sumation of all even numbers:', sumation);
